@@ -43,4 +43,4 @@ KPI => google analytics
 
 facilité à trouver de l’aide => SEO
 
-![rev uml](file:///home/user/Pictures/Screenshot%20from%202018-01-16%2016-36-41.png)
+![rev uml](https://i.imgur.com/5JurLc6.png)
