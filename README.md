@@ -43,5 +43,4 @@ KPI => google analytics
 
 facilité à trouver de l’aide => SEO
 
-
-![rev belgium uml](/home/user/Pictures/Screenshot from 2018-01-16 16-36-41.png "rev uml")
+![rev uml](file:///home/user/Pictures/Screenshot%20from%202018-01-16%2016-36-41.png)
