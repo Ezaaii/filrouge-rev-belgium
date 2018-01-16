@@ -44,4 +44,4 @@ KPI => google analytics
 facilité à trouver de l’aide => SEO
 
 
-![rev belgium uml](https://go.gliffy.com/go/share/s65k0lidm4lqyx9q53oc "google logo")
+![rev belgium uml](https://go.gliffy.com/go/view/12471180.png?size=large "rev uml")
