@@ -42,4 +42,6 @@ répartition du travail
 KPI => google analytics
 
 facilité à trouver de l’aide => SEO
-https://go.gliffy.com/go/share/s65k0lidm4lqyx9q53oc
+
+
+![rev belgium uml](https://go.gliffy.com/go/share/s65k0lidm4lqyx9q53oc "google logo")
