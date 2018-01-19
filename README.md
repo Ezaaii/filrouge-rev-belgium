@@ -16,10 +16,11 @@ informer et promouvoir les innitiatives de l’assossition
 offrir de l’information, du soutien etde la compréhension aux personnes qui entendent des voix. ils organisent des groupes d’entendeurs de voix, qui ont montré leur efficacité à aider l’individu à retrouver son identité et reprendre sa vie en mains. Même parfois après des années de psychiatrie
 
 ## Clients: 
-	REV_Belgium, association pour les entendeurs de voix.
+REV_Belgium, association pour les entendeurs de voix.
+personnes de contact: Omar ,  Steeve , Jimmy
  
-## Public cible: 
-  ce site web a pour vocation d'informer et promouvoir les actions entreprises par REV-Belgium il s'adresse particulièrement aux gens atteints de ces troubles.
+## Public cible
+personnes entendant des voix et désireuses de parler de ce problème avec d'autres.
 
 ## Fonctionnalités à implémenter
 
@@ -35,7 +36,7 @@ chaque onglet du site actuelle doit avoir une page avec un url propre.
 ## Dead Line
 
  - demain remise du cahier des charges 
- - fin formation pour
+ - fin formation pour la fin du projet
 
 répartition du travail
 
