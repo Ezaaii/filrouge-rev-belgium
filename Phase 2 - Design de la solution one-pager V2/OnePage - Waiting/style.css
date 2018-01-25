@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  font-family: Arial;
+  font-size: 1em;
 }
 .un {
   float: left;
@@ -11,15 +13,23 @@ body{
   flex-direction: column;
   justify-content: center;
 }
+.un .centré , .un p{
+  color:#FFFFFF;
+
+}
+
 .deux{
   float: right;
   width: 66%;
   height: 100vh;
-  background-image: url("images/facette_bg_vert_HR.jpg");
-}
-h2,h1,p{
-  color: white;
+  /*background-image: url("images/facette_bg_vert_HR.jpg");*/
   text-align: center;
+  color:#6e6e6e
+}
+.deux h1,i{
+  color: #12a421;
+  font-size: 2.4em;
+
 }
 .centré{
   margin: 0 auto;
@@ -35,12 +45,35 @@ h2,h1,p{
   margin-top: 15vh;
 }
 .block{
-  width: 24%;
-  float: left;
+  width: 30%;
+  float: left;7488cefd06f0942075be16c3c73fe5ae9106b5e8bb75ecffcf400ce3ea85e3e5
   text-align: center;
-  color: white;
   margin-left: 25px;
+}
+.block h3 {
+  color: #12a421;
+  font-size: 1.5em;
 }
 .i{
   font-size: 4em;
+  color: #12a421;
+}
+@media screen and (max-width: 640px) {
+
+  .un {
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background-image: url("bleu.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .deux{
+    width: 100%;
+  }
+  .block{
+    width: 100%;
+  }
 }
