@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+}
+.un {
+  float: left;
+  width: 34%;
+  height: 100vh;
+  background-image: url("bleu.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.deux{
+  float: right;
+  width: 66%;
+  height: 100vh;
+  background-image: url("images/facette_bg_vert_HR.jpg");
+}
+h2,h1,p{
+  color: white;
+  text-align: center;
+}
+.centré{
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+.sous-titre{
+  text-align: -webkit-center;
+  margin: 0 auto;
+  width: 60%;
+}
+.blocks{
+  margin-top: 15vh;
+}
+.block{
+  width: 24%;
+  float: left;
+  text-align: center;
+  color: white;
+  margin-left: 25px;
+}
+.i{
+  font-size: 4em;
+}
