@@ -13,10 +13,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Les entendeus de voie</title>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Les entendeur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113111411-1"></script>
     <script>
@@ -82,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </p>
         </div>
         <div class="block">
-            <i class="i fa  fa-address-book-o" aria-hidden="true"></i>
+            <i class="i fa  fa-calendar" aria-hidden="true"></i>
             <h3>Evènements</h3>
             <p>
                 Les congrès internationaux d'entendeur de voix permet un visibilité par delà les frontières de cette
@@ -90,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </p>
         </div>
         <div class="block">
-            <i class="fa i fa-bullhorn" aria-hidden="true"></i>
+            <i class="fa i fa-clipboard" aria-hidden="true"></i>
             <h3>Information</h3>
             <p>
                 L'information, le soutien et la compréhension offert à ceux qui entendent des voix à déja permis à de
@@ -99,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </div>
 
-    <span>Copyright - REV - 2018 -  <a href="#">copyright</a></span>
+    <span class="copyright">Copyright - REV - 2018 -  <a href="#">copyright</a></span>
 </div>
 <script type="text/javascript">
     let msg = document.querySelector(".messageDiv");
