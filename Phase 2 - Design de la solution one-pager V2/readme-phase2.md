@@ -11,7 +11,7 @@
 
 ## Etapes de la réalisation de la phase 2 - Design de la solution one-pager V2
 
-* Lecture attentive de l’énonce de l’exercice, analyse des livrables à fournir et briefing afin de se répartir les tâches selon les envies, les compétences et les désirs d’acquérir de nouvelles compétences de chacun.
+* Lecture attentive de l’énonce de l’exercice, analyse des livrables à fournir et briefing afin de se répartir les tâches selon les envies, les compétences et les désirs d’acquérir de nouvelles compétences de chacun ainsi que les contraintes imposée par l'énoncé de l'exercice et des informations fournies par l'équipe ayant réalisé la phase 1 (ex: charte graphique couleur verte, etc...)
 * Récupération sur le github de l’élève de Cycorp de la première version de la onepage dont l’hébergement gratuit était arrivé à expiration.
 * Demande complément d’information concernant le briefing exercice (coach, groupe1becode)
 * Rechercher d’une mise en page originale pour la waiting page - Recherche UX/UI (toute l’équipe)
