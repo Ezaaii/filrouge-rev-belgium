@@ -3,8 +3,7 @@
 
 http://www.rev-belgium.org/
 
-https://rev-belgium.000webhostapp.com/
-
+http://rev-belgium.rf.gd
 
 ## Objectifs projet: 
 rendre le site visuellement attrayant et augmenter la fréquentation aux réunions de l'assossiation
