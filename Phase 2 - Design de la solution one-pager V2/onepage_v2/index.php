@@ -11,12 +11,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ?>
 <!DOCTYPE html>
 <html>
+<html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <title>Les entendeus de voie</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Les entendeur</title>
+    <title>Les entendeurs de voix</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113111411-1"></script>
