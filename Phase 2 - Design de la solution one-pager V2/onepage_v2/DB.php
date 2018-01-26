@@ -30,7 +30,7 @@ class DB // Création d'une classe pour se connecter à la DB
                 $nbRow = count($req->fetchAll());
 
                 if ($nbRow > 0) {
-                    $_SESSION['messageAlt'] = "You are already registred";
+                    $_SESSION['messageAlt'] = "Cette adresse mail est déja enregistrée";
                 } else {
                     $mail = isset($_POST['email']) ? $_POST['email'] : "";
                     $req = $this->db->prepare("insert into email (email) value (?)");//value(?) cela correspond au nombre d'élément que l'on veut insérer. Le nombre de point d'interrogation est le même que le nombre d'élément que l'on veut insérer. Ici 1 seul point car juste élement = adresse mail.
