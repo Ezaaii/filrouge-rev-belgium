@@ -34,6 +34,11 @@ One-page version 2: http://rev-belgium.rf.gd
 * Coordination, communication équipe, réalisation des topics reprenant infos utiles (Marie-Ange)
 * Rédaction du readme-phase2 (Marie-Ange)
 * Testing et communication à l’équipe des bugs repérés après la mise en ligne (Marie-Ange)
+* appel uniquement à require DB uniquement lorsque l'utilisateur rempli formulaire (Kevin)
+* Testing en PHP de input de l'utilisateur ((test si mail, test caractères spéciaux, ...) et affichage message à l'utilisateur en fonction des erreurs. (Kevin et Marie-Ange)
+* Révision complète et modification pour corriger les erreurs dans fichiers HTML/CSS (Kevin, Marie-Ange, Antoine)
+* Amélioration des performances au test lighthouse (Marie-Ange,Nicolas)
+* Créer dossier DB sur le repo avec export DB au format .sql (Marie-Ange)
 
 ## Remerciements et circonstances extérieures au projet
 
