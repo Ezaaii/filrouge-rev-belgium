@@ -2,6 +2,8 @@
 
 Énoncé exercice : https://github.com/becodeorg/Lovelace-promo-2/tree/master/Projects/fil-rouge#phase-2--design-de-la-solution-one-pager-v2
 
+One-page version 2: http://rev-belgium.rf.gd
+
 ## Groupe 3 :
 
 * Nicolas VAN ROOST (Ezaaii)
