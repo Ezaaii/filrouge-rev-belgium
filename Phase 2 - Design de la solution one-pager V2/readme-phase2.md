@@ -40,7 +40,7 @@ One-page version 2: http://rev-belgium.rf.gd
 * Créer dossier DB sur le repo avec export DB au format .sql (Marie-Ange)
 * Amélioration des performances au test lighthouse (Marie-Ange,Nicolas)
 
-[Resultat Lighthouse](https://github.com/bouchat-marieange/filrouge-rev-belgium/blob/master/Phase%202%20-%20Design%20de%20la%20solution%20one-pager%20V2/R%C3%A9sultats%20Lighthouse%20-%20REV%20Belgium%20-%20Onepage%20V2.jpg)
+![Resultat Lighthouse](https://github.com/bouchat-marieange/filrouge-rev-belgium/blob/master/Phase%202%20-%20Design%20de%20la%20solution%20one-pager%20V2/R%C3%A9sultats%20Lighthouse%20-%20REV%20Belgium%20-%20Onepage%20V2.jpg)
 
 
 
