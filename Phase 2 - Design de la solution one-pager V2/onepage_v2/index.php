@@ -1,55 +1,41 @@
 <?php
-require "DB.php";
-session_start();
-if (isset($_SESSION['message'])) {
-    session_destroy();
-}
+require "./DB.php";
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $db = new DB();
     $db->saveEmail();
 }
 ?>
 <!DOCTYPE html>
-<html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>Les entendeurs de voix</title>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Les entendeurs de voix</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113111411-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-113111411-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-113111411-1');
     </script>
-
-    <style media="screen">
-        .messageDiv {
-            background: #2b860c;
-            width: 300px;
-            padding: 5px;
-            border-radius: 2px;
-            z-index: 5;
-            display: none;
-        }
-
-        .message {
-            font-family: Arial;
-            color: white;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
 <div class="messageDiv">
     <p class="message"><?= isset($_SESSION['message']) ? $_SESSION['message'] : ""; ?></p>
-    <!-- Condition ternaire: C'est une condition isset verifique que la variable existe, et si oui (condition elle va chercher le message qui a été transmis en GET dans l'url $_GET['message'], sinon elle n'affiche rien "") -->
 </div>
+
+<div class="messageDivAlt">
+    <p class="messageAlt"><?= isset($_SESSION['messageAlt']) ? $_SESSION['messageAlt'] : ""; ?></p>
+</div>
+
 <div class="un">
     <div class="centré">
         <h2>Une association à votre écoute</h2>
@@ -60,9 +46,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             Inscrivez-vous à notre newsletter
         </p>
         <form class="" action="" method="post">
-            <label for="mail">mail:</label>
             <input type="email" id="mail" name="email" value="" placeholder="votre adress mail">
-            <input type="submit" name="" value="INSCRIPTION">
+            <input type="submit" name="" value="Inscription">
         </form>
     </div>
 </div>
@@ -103,15 +88,30 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <span class="copyright">Copyright - REV - 2018 -  <a href="#">copyright</a></span>
 </div>
 <script type="text/javascript">
-    let msg = document.querySelector(".messageDiv");
-    msg.addEventListener("click", function () {
-        msg.style.display = "none";
-    });
-    setTimeout(() => {
-        msg.style.display = "none";
-    },
-    5000
-    )
-    </script>
+    let msgText1 = document.querySelector(".message");
+    let msgText2 = document.querySelector(".messageAlt");
+    let msgDiv = document.querySelector(".messageDiv");
+    let msgDivAlt = document.querySelector(".messageDivAlt");
+
+    if (msgText1.innerHTML === "") {
+        msgDiv.style.display = "none";
+    }
+    else {
+        msgDiv.style.display = "block";
+    }
+
+    if (msgText2.innerHTML === "") {
+        msgDivAlt.style.display = "none";
+    }
+    else {
+        msgDivAlt.style.display = "block";
+    }
+
+
+    setTimeout(function () {
+        msgDiv.style.display = "none";
+        msgDivAlt.style.display = "none";
+    }, 5000);
+</script>
 </body>
 </html>
